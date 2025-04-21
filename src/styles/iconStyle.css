@@ -1,0 +1,22 @@
+.icon {
+    color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.icon:hover {
+    color: antiquewhite;
+}
+
+@media only screen and (max-width: 600px) {
+    .icon {
+      min-height: unset;
+      padding-left: unset;
+      padding-top: unset;
+      margin: 0;
+      align-items: center;
+    }
+  
+    
+  }

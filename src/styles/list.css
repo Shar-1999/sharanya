@@ -1,0 +1,24 @@
+
+/* Ensure bullets stay visible */
+.job-description {
+  /* padding-left: 0; */
+  display: inline-block;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.job-description li::before {
+  content: "•";
+  color: #a78bfa;
+  font-weight: bold;
+  padding: 1rem 1rem 0rem 0rem;
+}
+
+/* Mobile-specific tweaks */
+@media (max-width: 600px) {
+  .job-description li {
+    margin-bottom: unset;
+    line-height: unset;
+    display: block;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+}

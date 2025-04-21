@@ -1,0 +1,24 @@
+
+  ul li::before {
+    content: "-> ";  
+    font-weight: bold;
+    color: purple;
+    padding-left: 0.5rem;
+  }
+
+  ul {
+    padding-top: 16px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 8px;
+    padding-bottom: 20px;
+    /* position: relative; */
+    color: rgb(242, 235, 226);
+  }
+
+  li {
+    position: relative;
+    padding-left: 4rem;
+    /* left: 0; */
+  }

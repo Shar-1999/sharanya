@@ -1,0 +1,45 @@
+.intro {
+    padding-bottom: 0%;
+}
+
+img {
+    vertical-align: bottom;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    /* padding: 1rem; 
+    gap: 1rem; */
+    margin: 20px 0px 0px;
+  }
+  
+  /* Small screens ≥640px (sm) */
+  @media (min-width: 640px) {
+    .container {
+      padding: unset;
+      gap: unset;  
+      align-items: center; 
+      overflow-x: hidden;
+    }
+  }
+  
+  /* Medium screens ≥768px (md) */
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      padding: 3rem; /* md:p-12 */
+      gap: 2rem;     /* md:gap-8 */
+    }
+  }
+  
+  /* For dark mode — assuming a class or <body> toggle */
+  .dark .container {
+    color: white;
+    background-color: black;
+  }
