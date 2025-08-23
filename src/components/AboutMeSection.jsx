@@ -20,7 +20,7 @@ export default function AboutMeSection() {
                 </div>
                 <div>
                 <p className="text-gray-400 mb-4 text-left">
-                I am currently a <b>Senior Systems Engineer</b> at infosys, working as <b>Senior developer</b> for one of the largest European telecommunication Company.
+                I am currently a <b>Core Java Developer</b> at Intelizign, contributing to backend services and enterprise applications in the digital engineering domain.
                 </p>
                 <p className="text-gray-400 mb-4 text-left"> 
                 Here are some technologies I have been working with:
@@ -33,7 +33,7 @@ export default function AboutMeSection() {
                   })}
                 </ul>
                 <p className="text-gray-400 text-left">
-                    Outside of work, I'm interested in taking hikes and explore new places where I get to learn different life changing culture. My interest also lies in discovering and understanding AI impact in the upcoming future so I can contribute to the huge change around the AI world.
+                  Outside of work, I enjoy hiking and exploring new places, where I gain exposure to diverse cultures and perspectives that shape my worldview. I am also deeply interested in the evolving impact of artificial intelligence and actively seek to understand its potential in shaping the future, with the goal of contributing meaningfully to the transformative changes it brings.
                 </p>
                 </div>
         </div>

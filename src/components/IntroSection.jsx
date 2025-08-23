@@ -5,9 +5,9 @@ const IntroSection = () => {
             <div className='container'>
             <div className="md:text-left">
                 <h1 className="text-2xl sm:text-3xl font-bold">Hello, Sharanya here!</h1>
-                <span className="text-gray-400">Software Engineer | Backend Developer</span>
+                <span className="text-gray-400">Software Engineer | Backend Developer | Open Source Enthusiast | Lifelong Learner </span>
                 <p className="text-gray-500 mt-2 max-w-[90vw] md:max-w-xl lg:max-w-2xl mx-auto px-4">
-                    I am a passionate software engineer driven by the ever-evolving innovations in the tech industry. I thrive on contributing to groundbreaking discoveries and have played a key role in major European telecommunication projects.
+                    “I believe in continual learning, regularly update my skillset, and welcome feedback that pushes me to improve. My portfolio highlights growth through diverse projects using modern frameworks and technologies.”
                 </p>
             </div>
             <div className="w-full md:w-1/2 flex justify-center">
